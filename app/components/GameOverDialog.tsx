@@ -38,7 +38,7 @@ const GameOverDialog = ({ reset, winner, player }: Props) => {
               TAKES THE ROUND
             </span>
           ) : (
-            <span className="text-silver-hover">TIE</span>
+            <span className="text-silver-hover">ROUND TIED</span>
           )}{" "}
         </h1>
 

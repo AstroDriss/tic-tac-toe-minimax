@@ -6,10 +6,11 @@ interface Props {
   board: any[];
   endGame: any;
   turn: string;
+  ai?: string | undefined;
   handleCLick: (i: number) => () => void;
 }
 
-const GameGrid = ({ board, endGame, handleCLick, turn }: Props) => {
+const GameGrid = ({ board, endGame, handleCLick, turn, ai }: Props) => {
   return (
     <>
       {board.map((spot, index) => {
@@ -31,6 +32,7 @@ const GameGrid = ({ board, endGame, handleCLick, turn }: Props) => {
             {spot == "x" && <X color={isWiningSpot ? "#1A2A33" : undefined} />}
             {spot == "o" && <O color={isWiningSpot ? "#1A2A33" : undefined} />}
             {!spot &&
+              turn != ai &&
               (turn == "x" ? (
                 <OutlineX
                   className={`hidden ${
