@@ -8,6 +8,7 @@
 
 # testing
 /coverage
+/fm
 
 # next.js
 /.next/
