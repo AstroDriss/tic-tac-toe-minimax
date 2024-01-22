@@ -16,7 +16,7 @@ export default function Home() {
         <Logo className="mx-auto" />
 
         <div className="flex flex-col gap-3 items-center p-5 rounded-xl border-b-4 border-cyan-950 bg-navy-700 text-silver-100">
-          <h1>Pick Player 1'S mark</h1>
+          <h1>Pick Player 1&apos;S mark</h1>
           <ul className="flex bg-navy-900 w-full p-2 font-black rounded-md">
             <li className="grow">
               <button
@@ -46,7 +46,7 @@ export default function Home() {
         <div className="flex flex-col gap-4">
           <Link
             className="bg-secondary text-navy-900 rounded-lg font-bold text-center py-3 border-b-4 border-yellow-600 transition-colors hover:bg-secondaryHover"
-            href="/cpu"
+            href="/ai"
           >
             New Game (VS CPU)
           </Link>
