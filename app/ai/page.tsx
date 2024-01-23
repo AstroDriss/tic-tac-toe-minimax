@@ -9,9 +9,7 @@ import GameTopBar from "../components/GameTopBar";
 
 let ai: string;
 let scoreMap: {
-  [x: string]: number;
-  [x: number]: number;
-  tie: number;
+  [key: string]: number;
 };
 
 const AI = () => {
