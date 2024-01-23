@@ -62,7 +62,7 @@ const AI = () => {
 
   const perfectSpot = () => {
     let bestScore = -Infinity;
-    let bestMove: number;
+    let bestMove = 0;
 
     for (let i = 0; i < board.length; i++) {
       if (board[i] == "") {

@@ -21,7 +21,9 @@ export default function RootLayout({
   return (
     <html className="h-full" lang="en">
       <GameProvider>
-        <body className={`uppercase h-full ${inter.className} bg-navy-900`}>
+        <body
+          className={`uppercase h-full ${inter.className} bg-navy-900 px-4`}
+        >
           {children}
         </body>
       </GameProvider>

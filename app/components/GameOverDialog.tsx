@@ -26,7 +26,7 @@ const GameOverDialog = ({ reset, winner, player }: Props) => {
         <p className="text-silver-100 text-xs">
           {winner !== "tie" && (player === winner ? "YOU WON!" : "YOU LOSE!")}
         </p>
-        <h1 className="text-primary font-extrabold text-2xl flex items-center gap-5">
+        <h1 className="text-primary font-extrabold  sm:text-2xl flex items-center gap-3">
           {winner == "x" ? (
             <span className="contents">
               <X size="40" />
