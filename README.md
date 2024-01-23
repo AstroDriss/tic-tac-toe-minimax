@@ -8,4 +8,5 @@ this game was built using tailwindcss and Nextjs to test if I can implement the 
 
 ![](screenshot.png)
 
-my website : [douiri.org](https://douiri.org)
+live demo: [here](https://tic-tac-toe-minimax-gamma.vercel.app/)
+my website: [douiri.org](https://douiri.org)
